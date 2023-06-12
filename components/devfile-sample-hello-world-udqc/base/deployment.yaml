@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-hello-world-udqc
     spec:
       containers:
-      - image: hello-world:latest
+      - image: quay.io/tnevrlka-test/build-e2e-vdei-tenant/build-suite-test-application-jtxy/devfile-sample-hello-world-udqc@sha256:dec705736a64db85a64b74a7dbd28ba627f0ca6a7683732bba907fb067905375
         name: my-nginx
         ports:
         - containerPort: 8080
