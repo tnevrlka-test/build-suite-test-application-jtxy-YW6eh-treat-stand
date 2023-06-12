@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-hello-world-udqc
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/tnevrlka-test/build-e2e-vdei-tenant/build-suite-test-application-jtxy/devfile-sample-hello-world-udqc@sha256:dec705736a64db85a64b74a7dbd28ba627f0ca6a7683732bba907fb067905375
+        name: my-nginx
+        resources: {}
+status: {}
